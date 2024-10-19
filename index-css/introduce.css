@@ -1,0 +1,41 @@
+/* 소개글 */
+.introduce {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.introduce_header {
+  font-size: 34px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid black;
+}
+.introduce_header1 {
+  opacity: 0.6;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+/* 소개정보 */
+.icon-infoname_first {
+  padding-top: 80px;
+  font-size: 24px;
+}
+
+.maininfo {
+  display: flex;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+/*  */
+.icon-infoname_second {
+  padding-top: 60px;
+  font-size: 24px;
+}

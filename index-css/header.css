@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    z-index: 999;
+}
+
+.header_area {
+    width: 100vw;
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 39px;
+    font-size: 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: inherit;
+}

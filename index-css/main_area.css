@@ -1,0 +1,38 @@
+.first {
+  height: 100vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.profile_photo {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.profile_photo img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.name_opacity {
+  font-size: 24px;
+  opacity: 0.6;
+  padding-top: 12px;
+}
+
+.down {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  opacity: 0.8;
+}
