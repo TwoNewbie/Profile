@@ -1,0 +1,47 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 220px;
+  padding-bottom: 30px;
+}
+
+.title span {
+  border-bottom: 3px solid black;
+  padding-bottom: 30px;
+}
+
+.linkbuttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 80px;
+  gap: 10px;
+}
+
+.linkbuttons button {
+  background-color: white;
+  font-size: 20px;
+  width: 800px;
+  height: 60px;
+  border-radius: 9px;
+  border: 2px solid black;
+}
+
+.linkbuttons a {
+  text-decoration: none;
+}
+
+.linkbuttons button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
